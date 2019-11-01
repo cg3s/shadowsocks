@@ -310,7 +310,7 @@ class IPNetwork(object):
         list(map(self.add_network, addrs))
 
     def add_network(self, addr):
-        if addr is "":
+        if addr is "" or len(addr)==32:
             return
 
         addr = addr.replace("::ffff:", "")
