@@ -3,12 +3,12 @@ NODE_ID = 1
 
 
 # hour,set 0 to disable
-SPEEDTEST = 6
+SPEEDTEST = 12
 CLOUDSAFE = 1
 ANTISSATTACK = 0
 AUTOEXEC = 0
 
-MU_SUFFIX = 'zhaoj.in'
+MU_SUFFIX = 'cloudflare.com'
 MU_REGEX = '%5m%id.%suffix'
 
 SERVER_PUB_ADDR = '127.0.0.1'  # mujson_mgr need this to generate ssr link
@@ -25,7 +25,7 @@ MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_USER = 'ss'
 MYSQL_PASS = 'ss'
-MYSQL_DB = 'shadowsocks'
+MYSQL_DB = 'sspanel'
 
 MYSQL_SSL_ENABLE = 0
 MYSQL_SSL_CA = ''
